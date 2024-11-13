@@ -31,7 +31,7 @@ const ReadmeViewer = ({ repo }) => {
       try {
         // Fetch README
         const readmeResponse = await fetch(
-          `https://api.github.com/repos/${process.env.REACT_APP_GITHUB_USER}/${repo.name}/readme`,
+          `https://api.github.com/repos/${process.env.REACT_APP_GITHUB_USERNAME}/${repo.name}/readme`,
           {
             headers: {
               Authorization: `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`,
@@ -49,7 +49,7 @@ const ReadmeViewer = ({ repo }) => {
 
         // Fetch package.json (for dependencies)
         const packageJsonResponse = await fetch(
-          `https://api.github.com/repos/${process.env.REACT_APP_GITHUB_USER}/${repo.name}/contents/package.json`,
+          `https://api.github.com/repos/${process.env.REACT_APP_GITHUB_USERNAME}/${repo.name}/contents/package.json`,
           {
             headers: {
               Authorization: `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`,
