@@ -1,0 +1,6 @@
+
+/* styles.css */
+.routes-container {
+  height: 100vh; /* Full height of the viewport */
+  overflow-y: auto; /* Enable vertical scrolling */
+}

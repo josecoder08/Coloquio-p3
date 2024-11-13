@@ -1,0 +1,55 @@
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: white; /* Color de fondo para el navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido a la derecha */
+    z-index: 1000;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+  }
+  
+  .nav-item a {
+    color: #fff; /* Color de los enlaces */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-item a:hover {
+    background-color: #1abc9c; /* Color de fondo al pasar el mouse */
+  }
+  
+  .nav-item .active {
+    background-color: #16a085; /* Color cuando el enlace está activo */
+  }
+  
+  /* Content styling */
+  .content {
+    padding-top: 80px; /* Ajusta este valor según la altura del navbar */
+    margin: 0 auto;
+    width: 90%; /* Centra y da un ancho adecuado al contenido */
+  }
+  .nav-item:last-child a {
+    margin-right: 20px; /* Añade margen derecho solo a este botón */
+  }
+  

@@ -1,0 +1,97 @@
+.home-container {
+  padding: 20px;
+  margin: 80px auto 20px auto; /* Añade un margen superior para evitar superposición con el navbar */
+  max-width: 800px;
+  background-color: rgb(211, 243, 204); /* Fondo claro */
+  border: 2px solid #e0e0e0; /* Borde gris claro */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+  text-align: center;
+  margin-top: 300px;
+  
+}
+
+.home-container h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.home-container p {
+  color: #555;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.github-image {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+  transition: transform 0.3s ease;
+}
+
+.github-image:hover {
+  transform: scale(1.05);
+}
+
+.home-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #007acc;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-button:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+.home-button:active {
+  transform: translateY(1px);
+}
+
+.tech-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  margin-left: 5px;
+  object-fit: cover;
+}
+/* Estilo para la sección de perfil */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px; /* Separación entre la foto y el contenido */
+}
+
+.profile-image {
+  width: 150px;  /* Ajusta el tamaño según tus preferencias */
+  height: 150px;  /* Mantén la imagen cuadrada */
+  border-radius: 50%;  /* Borde redondeado */
+  object-fit: cover;  /* Ajusta la imagen al contenedor sin distorsionarla */
+  border: 3px solid #4a90e2;  /* Borde alrededor de la imagen */
+  margin-bottom: 20px; /* Espacio entre la imagen y el título */
+}
+.linkedin-link {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+}
+
+.linkedin-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
