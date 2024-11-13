@@ -10,7 +10,7 @@ const RepositorioList = () => {
   useEffect(() => {
     const fetchRepos = async () => {
       try {
-        const response = await fetch(`https://api.github.com/users/${process.env.REACT_APP_GITHUB_USER}/repos`, {
+        const response = await fetch(`https://api.github.com/users/${process.env.REACT_APP_GITHUB_USERNAME}/repos`, {
           headers: {
             Authorization: `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`,
           },
